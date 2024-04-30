@@ -510,4 +510,11 @@ font-size: 30px;
     #contact .row img{
         width: 300px;
     }
+    #home .navbar nav ul a{
+        margin: 0 7px;
+        color: var(--primary-color);
+       font-weight: 400;
+    
+        
+    }
 }
