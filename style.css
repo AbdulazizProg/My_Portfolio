@@ -488,20 +488,26 @@ font-size: 30px;
       #contact .row{
         padding: 2rem 1rem;
         row-gap: 2rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
       }
+
 
       #contact .row input,#contact .row textarea{
         display: block;
-        width: 70%;
-        margin: 20px 0;
+        width: 60%;
+        /* margin: 20px 0; */
         padding: 10px;
         outline: none;
         background-color: #00f4ab0c;
         border: 1px solid #bbb;
+         justify-content: center; 
+        align-items: center;
     
     }
 
     #contact .row img{
-        width: 350px;
+        width: 300px;
     }
 }
